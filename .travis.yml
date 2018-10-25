@@ -6,4 +6,6 @@ services:
 before_script:
   - "psql -c 'create database save_control_points;'"
 script:
-  - pytest .
+  - pytest --cov=./
+after_success:
+  - codecov
