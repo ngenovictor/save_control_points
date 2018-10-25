@@ -5,3 +5,6 @@ save_control_points/local_settings.py
 db.sqlite3
 **.pyc
 __pycache__
+
+the_app/migrations/*
+!the_app/migrations/__init__.py
