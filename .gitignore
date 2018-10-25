@@ -1,7 +1,6 @@
 env
 .idea
 .vscode
-setup.py
 save_control_points/local_settings.py
 db.sqlite3
 **.pyc

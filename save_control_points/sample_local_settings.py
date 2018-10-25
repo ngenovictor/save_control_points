@@ -1,2 +1,3 @@
-def get_secret_key():
-    return ''
+SECRET_KEY = "YOUR_SECRET_KEY"
+
+# try: https://djskgen.herokuapp.com/
