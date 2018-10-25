@@ -4,6 +4,6 @@ python:
 services:
   - postgresql
 env:
-  -DB=mysql
+  -DB=postgresql
 script:
   - python manage.py test
