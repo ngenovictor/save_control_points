@@ -3,7 +3,7 @@ python:
   - "3.6"
 services:
   - postgresql
-env:
-  -DB=postgresql
+before_script:
+  - "psql -c 'create database save_control_points;'"
 script:
   - python manage.py test
