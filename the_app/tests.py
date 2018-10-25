@@ -15,7 +15,3 @@ class ViewsTestCases(TestCase):
         response = self.client.get(path)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(response.json()['message'], 'successful')
-    
-    def test_os_variable(self):
-        print(os.environ.get("DB"))
-        assert False
