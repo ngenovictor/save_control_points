@@ -28,7 +28,7 @@ except ImportError:
     SECRET_KEY = os.environ.get("SECRET_KEY")
     DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'save-control-points.herokuapp.com']
 
 
 # Application definition
