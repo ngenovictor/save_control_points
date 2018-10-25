@@ -13,4 +13,5 @@ class ViewsTestCases(TestCase):
         path = reverse('home')
         response = self.client.get(path)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(response.json()['message'], 'successful')
 
