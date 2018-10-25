@@ -8,3 +8,5 @@ __pycache__
 
 the_app/migrations/*
 !the_app/migrations/__init__.py
+
+.coverage

@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+services:
+  - postgresql
+before_script:
+  - "psql -c 'create database save_control_points;'"
+script:
+  - pytest --cov=./
+after_success:
+  - codecov
