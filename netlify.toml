@@ -3,4 +3,4 @@
   # This is where we will look for package.json/.nvmrc/etc.
   base = "web-app/"
   publish = "web-app/dist/web-app"
-  command = "ng build system --production"
+  command = "ng build --prod"
